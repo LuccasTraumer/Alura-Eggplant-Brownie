@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F14152D8242292B900C63103 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14152D7242292B900C63103 /* Alerta.swift */; };
+		F14DB480241FEC7100FD83C0 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14DB47E241FEC7100FD83C0 /* AdicionarItensViewController.swift */; };
+		F14DB481241FEC7200FD83C0 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14DB47F241FEC7100FD83C0 /* AdicionarItensViewController.xib */; };
 		F15723F2241BBEB900EB738F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15723F1241BBEB900EB738F /* AppDelegate.swift */; };
 		F15723F4241BBEB900EB738F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15723F3241BBEB900EB738F /* ViewController.swift */; };
 		F15723F7241BBEB900EB738F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15723F5241BBEB900EB738F /* Main.storyboard */; };
 		F15723F9241BBEBD00EB738F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15723F8241BBEBD00EB738F /* Assets.xcassets */; };
 		F15723FC241BBEBD00EB738F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15723FA241BBEBD00EB738F /* LaunchScreen.storyboard */; };
+		F157C498241D7BA300D19A0B /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157C497241D7BA300D19A0B /* Refeicao.swift */; };
+		F157C49A241D7C4F00D19A0B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157C499241D7C4F00D19A0B /* Item.swift */; };
+		F15DD591241F038600D50699 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DD590241F038600D50699 /* RefeicoesTableViewController.swift */; };
+		F182AD5D24239E6B00A8414B /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F182AD5C24239E6B00A8414B /* RemoveRefeicaoViewController.swift */; };
+		F182AD5F2423DA4300A8414B /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F182AD5E2423DA4300A8414B /* RefeicaoDao.swift */; };
+		F1F19F692423DFE900C132D5 /* ItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F19F682423DFE900C132D5 /* ItemDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F14152D7242292B900C63103 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		F14DB47E241FEC7100FD83C0 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		F14DB47F241FEC7100FD83C0 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
 		F15723EE241BBEB900EB738F /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15723F1241BBEB900EB738F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15723F3241BBEB900EB738F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,13 @@
 		F15723F8241BBEBD00EB738F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F15723FB241BBEBD00EB738F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F15723FD241BBEBD00EB738F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1572403241BE7F300EB738F /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F157C497241D7BA300D19A0B /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		F157C499241D7C4F00D19A0B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F15DD590241F038600D50699 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		F182AD5C24239E6B00A8414B /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
+		F182AD5E2423DA4300A8414B /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		F1F19F682423DFE900C132D5 /* ItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +73,48 @@
 		F15723F0241BBEB900EB738F /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				F1572403241BE7F300EB738F /* MyPlayground.playground */,
 				F15723F1241BBEB900EB738F /* AppDelegate.swift */,
-				F15723F3241BBEB900EB738F /* ViewController.swift */,
-				F15723F5241BBEB900EB738F /* Main.storyboard */,
+				F157C49B241D7CCA00D19A0B /* Models */,
+				F157C49D241D7D4B00D19A0B /* Views */,
+				F157C49C241D7CE900D19A0B /* Controllers */,
 				F15723F8241BBEBD00EB738F /* Assets.xcassets */,
 				F15723FA241BBEBD00EB738F /* LaunchScreen.storyboard */,
 				F15723FD241BBEBD00EB738F /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		F157C49B241D7CCA00D19A0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F157C497241D7BA300D19A0B /* Refeicao.swift */,
+				F157C499241D7C4F00D19A0B /* Item.swift */,
+				F14152D7242292B900C63103 /* Alerta.swift */,
+				F182AD5E2423DA4300A8414B /* RefeicaoDao.swift */,
+				F1F19F682423DFE900C132D5 /* ItemDao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F157C49C241D7CE900D19A0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F15723F3241BBEB900EB738F /* ViewController.swift */,
+				F15DD590241F038600D50699 /* RefeicoesTableViewController.swift */,
+				F14DB47E241FEC7100FD83C0 /* AdicionarItensViewController.swift */,
+				F182AD5C24239E6B00A8414B /* RemoveRefeicaoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F157C49D241D7D4B00D19A0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F15723F5241BBEB900EB738F /* Main.storyboard */,
+				F14DB47F241FEC7100FD83C0 /* AdicionarItensViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +177,7 @@
 			files = (
 				F15723FC241BBEBD00EB738F /* LaunchScreen.storyboard in Resources */,
 				F15723F9241BBEBD00EB738F /* Assets.xcassets in Resources */,
+				F14DB481241FEC7200FD83C0 /* AdicionarItensViewController.xib in Resources */,
 				F15723F7241BBEB900EB738F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F182AD5D24239E6B00A8414B /* RemoveRefeicaoViewController.swift in Sources */,
+				F157C49A241D7C4F00D19A0B /* Item.swift in Sources */,
+				F14DB480241FEC7100FD83C0 /* AdicionarItensViewController.swift in Sources */,
+				F182AD5F2423DA4300A8414B /* RefeicaoDao.swift in Sources */,
 				F15723F4241BBEB900EB738F /* ViewController.swift in Sources */,
+				F1F19F692423DFE900C132D5 /* ItemDao.swift in Sources */,
+				F15DD591241F038600D50699 /* RefeicoesTableViewController.swift in Sources */,
+				F157C498241D7BA300D19A0B /* Refeicao.swift in Sources */,
 				F15723F2241BBEB900EB738F /* AppDelegate.swift in Sources */,
+				F14152D8242292B900C63103 /* Alerta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
